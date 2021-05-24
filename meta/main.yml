@@ -19,6 +19,10 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+    - name: Suse
+      versions:
+        - 15.1
+        - 15.2
   galaxy_tags:
     - development
     - web
