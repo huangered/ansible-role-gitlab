@@ -79,7 +79,7 @@
     group: root
     mode: 0600
   notify:
-    - restart gitlab gitlab-runsvdir.service
+    - restart gitlab-runsvdir.service
     - restart gitlab
 
 - name: configure fast lookup of ssh keys
