@@ -8,4 +8,3 @@
         AuthorizedKeysCommandUser git
       Match all    # End match, settings apply to all users again
   notify: restart sshd
-
