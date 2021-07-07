@@ -1,5 +1,5 @@
 ---
-- name: restart gitlab gitlab-runsvdir.service
+- name: restart gitlab-runsvdir.service
   service:
     name: gitlab-runsvdir
     state: restarted
